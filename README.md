@@ -29,7 +29,6 @@ Royce and Charles Rolls">
 <a href="#" class="hey"><strong>Say Hello!</strong></a>
 </nav>
 </section>
-Dept of CSE ACEM
 <div class="content">
 <div class="image">
 <img src="C:\Users\Administrator\Downloads\henry.jpeg" alt="anupama">
