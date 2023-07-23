@@ -1,45 +1,99 @@
- Index.html
+ 
+
+html
+Copy code
 <!DOCTYPE html>
-<html>
-<style>
-body{
-color:blue;
-}
-</style>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Henry Royce and Charles Rolls</title>
-<link href="ks.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <style>
+    /* Add your CSS styles here or link an external CSS file */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #444;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    section {
+      padding: 30px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
 </head>
-<body style="background-color:grey;">
-<section id="main">
-<nav>
-<a href="#" class="logo">
-<img src="C:\Users\Administrator\Downloads\rolls.jpeg" alt="The Logo of Project Henry
-Royce and Charles Rolls">
-</a>
-<span class="menu-space"></span>
-<ul class="menu">
-<li><a href="#">Home</a></li>
-<li><a href="#">Sarees</a></li>
-<li><a href="#">Recent</a></li>
-<li><a href="#">Sales</a></li>
-<li><a href="#">Contacts</a></li>
-</ul>
-<a href="#" class="hey"><strong>Say Hello!</strong></a>
-</nav>
-</section>
-<div class="content">
-<div class="image">
-<img src="C:\Users\Administrator\Downloads\henry.jpeg" alt="anupama">
-</div>
-<div class="main text">
-<h1>Hello, We are the <br> Henry_Royce and Charles_Rolls </h1>
-<p>Hey in this video i will be showing you guys how to build a website using only HTML
-and CSS</p>
-<a href="#" class="resume-btn">See My Resume</a>
-</div>
-</div>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Web Developer / Designer</p>
+  </header>
+
+  <nav>
+    <!-- Replace "#" with the URLs of your portfolio sections or pages -->
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Introduce yourself here. Talk about your skills, experience, and passions. Let visitors know what makes you unique as a web developer or designer.
+    </p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <!-- Showcase your projects with images and descriptions -->
+    <div>
+      <h3>Project 1</h3>
+      <img src="path/to/project1-thumbnail.jpg" alt="Project 1">
+      <p>
+        Description of Project 1. Explain what the project is about, the technologies used, and your role in the project.
+      </p>
+    </div>
+    <div>
+      <h3>Project 2</h3>
+      <img src="path/to/project2-thumbnail.jpg" alt="Project 2">
+      <p>
+        Description of Project 2. Explain what the project is about, the technologies used, and your role in the project.
+      </p>
+    </div>
+    <!-- Add more projects as needed -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <!-- Provide contact information and a contact form -->
+    <p>
+      You can reach me at: your-email@example.com
+    </p>
+    <!-- Add a contact form using HTML or integrate a third-party service -->
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Your Name. All rights reserved.</p>
+  </footer>
 </body>
 </html>
-  
